@@ -1,4 +1,4 @@
-# Vasily Batmaev — Software Engineer & Applied Researcher
+# Vasya Batmaev — Software Engineer & Applied Researcher
 
 > This is an extended version of my resume with more detail and context than fits on one page. It works well for AI-assisted screening.
 
