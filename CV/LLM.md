@@ -41,6 +41,16 @@ The system has two parts: identification (recognizing who the user is) and liven
 
 ---
 
+### Computer Vision Engineer — MIPT Scientific Programming Center / Reksoft / Nornickel (Mar 2026)
+
+Subcontract chain: Nornickel (end client) → Reksoft (integrator) → MIPT Scientific Programming Center (my team).
+
+IR camera analysis of a molten metal pouring process in a smelter. The system segments the stream into slag vs. matte to tell operators when to stop pouring — the environment is too hostile for direct observation.
+- Built accretion detection (solidified formations interfering with the stream) using temperature thresholding and inter-frame standard deviation. The broader pipeline included YOLO-based ROI detection and thermal segmentation.
+- Ramped up quickly on a mid-stage codebase with minimal documentation.
+
+---
+
 ### Software Engineer — mixim startup (Nov 2024 – May 2025)
 
 Built the complete UI for a customizable-beverage kiosk in **Electron + Svelte 5**:
