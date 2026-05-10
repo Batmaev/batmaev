@@ -11,7 +11,7 @@
 
 ## Summary
 
-ML engineer and fullstack developer with a physics and mathematics foundation from MIPT (Russia's top-ranked STEM university). I build algorithm-heavy products end-to-end: ML models (PyTorch, scikit-learn), backends (FastAPI, Docker), and frontends (TypeScript, Svelte, Next.js).
+ML engineer and fullstack developer with a physics and mathematics foundation from MIPT (Russia's leading STEM university). I build algorithm-heavy products end-to-end: ML models, backends, and frontends.
 
 Current PhD research: eye-movement biometrics with near-state-of-the-art liveness detection on consumer hardware. Outside academia — production UIs, sensor data pipelines deployed on real hardware, and community tools with thousands of users.
 
@@ -41,13 +41,14 @@ The system has two parts: identification (recognizing who the user is) and liven
 
 ---
 
-### Computer Vision Engineer — MIPT Scientific Programming Center / Reksoft / Nornickel (Mar 2026)
+### Computer Vision Engineer — MIPT Scientific Programming Center / Reksoft / Nornickel (Mar - May 2026)
 
 Subcontract chain: Nornickel (end client) → Reksoft (integrator) → MIPT Scientific Programming Center (my team).
 
 IR camera analysis of a molten metal pouring process in a smelter. The system segments the stream into slag vs. matte to tell operators when to stop pouring — the environment is too hostile for direct observation.
 - Built accretion detection (solidified formations interfering with the stream) using temperature thresholding and inter-frame standard deviation. The broader pipeline included YOLO-based ROI detection and thermal segmentation.
 - Ramped up quickly on a mid-stage codebase with minimal documentation.
+- Debugged deadlocks in the multi-camera parallel pipeline.
 
 ---
 
@@ -76,23 +77,35 @@ Worked on a gyro-stabilized satellite antenna that tracks a geostationary satell
 
 ---
 
-### Open-Source & Community Projects
+### Community Projects
 
 **@phystech_bot — Telegram university verification bot**
 
 Creates protected invite links for MIPT-only Telegram chats; users verify their university email with a one-time code.
 
-- **6,700+ registered users** — ~84% of the student body, with no official university support. 21 GitHub stars.
+- **6,800+ registered users** — ~85% of the student body, with no official university support. 23 GitHub stars.
 - Tech: Docker Compose, aiogram, Telethon, SQLite, SQLAlchemy.
 
 ---
 
 **Anonymous student dating service (Telegram Mini App)**
 
-Users post anonymous profiles via a bot; others respond through a Mini App. **1,700+ subscribers.**
+Users post anonymous profiles via a bot; others respond through a Mini App. **1,800+ subscribers.**
 
 - Diagnosed and worked around Russian state-level DPI throttling (connections dropped after ~10–15 KB) by downgrading to HTTP/1.1, shrinking the bundle, and adding API retries.
 - Tech: Docker Compose, aiogram, HTML/JS/CSS, Caddy.
+
+### Open source contributions
+
+**telemt — proxy server for Telegram**
+
+Made masking timeouts configurable to allow long polling (https://github.com/telemt/telemt/pull/623)
+
+---
+
+**tuwunel — Matrix (decentralized messenger) server**
+
+Improved OIDC support (https://github.com/matrix-construct/tuwunel/pull/450)
 
 ---
 
